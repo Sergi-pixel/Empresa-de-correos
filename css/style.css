@@ -1,0 +1,56 @@
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #0062E6 0%, #33AEFF 100%);
+    color: white;
+    padding: 140px 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+.hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 20px; }
+.hero p { font-size: 1.25rem; margin-bottom: 30px; }
+.btn-hero { padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 50px; }
+
+/* Secciones */
+section { padding: 80px 20px; }
+section h2 { font-weight: 700; margin-bottom: 50px; color: #003366; }
+
+/* Tarjetas */
+.card {
+    border-radius: 20px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
+.card-icon { font-size: 3rem; color: #007BFF; margin-bottom: 15px; }
+
+/* Formulario */
+#calculadora form input, #calculadora form button, select {
+    border-radius: 15px;
+}
+#calculadora form button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#calculadora form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+footer a { color: #33AEFF; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
